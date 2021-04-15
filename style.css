@@ -1,0 +1,1627 @@
+* {
+    margin:  0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+
+  body {
+    height: 100%;
+  }
+    
+    header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 4;
+    }
+
+    .flex {  
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #home {
+    flex: 50%;
+    background-color: #f1f1f1;
+    padding: 1%;
+  }
+  
+  #menu {
+    flex: 40%;
+    background-color: #f1f1f1;
+  }
+
+  #logo {
+      margin-left: 7rem;
+      width: 20vw;
+  }
+
+  #logo:hover{
+    opacity: 0.8;
+    cursor: pointer;
+  }
+
+  #menuredes {
+      padding: 2rem;
+      padding-right: 5rem;
+      padding-bottom: 1rem;
+      justify-content: flex-end;
+  }
+
+  #menunav {
+    padding-right: 5rem;
+    justify-content: flex-end;
+  }
+
+  #menunav a{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: rgb(87, 12, 12);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+  #menunav a:last-child {
+    padding-right: 0rem;
+  }
+
+  #menunav a:hover {
+    font-weight: 700;
+  }
+
+  .clickeado p{
+    font-weight: 700;
+    color: rgb(0, 0, 0)
+  }
+
+  .iconos {
+    height: 1.875rem;
+    padding-left: 2rem;
+  }
+
+  .iconos:hover {
+      opacity: 0.5;
+  }
+
+  #piedepag p{
+    display: block;
+    text-align: center;
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 1%;
+    padding-right: 0;
+    padding-left: 0;
+    font-family: 'Raleway', sans-serif;
+      font-weight: 500;
+      font-size: 0.8vw;
+  }
+
+  footer {  
+    display: none;
+}
+
+#aboutmecont {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 140px;
+  padding-bottom: 60px;
+}
+
+#imgaboutme{
+  margin-left: 8rem;
+  display: flex;
+  align-items: center;
+
+}
+
+#imgaboutme img{
+  width: 20vw;
+  margin-top: 5.2rem;
+}
+
+#textoaboutme{
+  padding-left: 8vw;
+  width: 45vw;
+}
+
+#textoaboutme h1{  
+    color: rgb(87, 12, 12);
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+      text-shadow: 1px 1px #b8b8b8;
+}
+
+#textoaboutme h2{  
+  padding-bottom: 1rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 1.5vw;
+}
+
+#textoaboutme p{
+  font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 1.2vw;
+}
+
+#gifflecha {
+  position: absolute;
+  margin-left: 26vw;
+  width: 150px;
+  opacity: 0.5;
+}
+
+#enlacescv{
+  font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-left: 8rem;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+.linkcv{
+  font-weight: 800;
+  color: rgb(87, 12, 12);
+}
+
+.linkcv:hover {
+  color: rgb(0, 0, 0);
+  opacity: 0.5;
+}
+
+#gifflecha2 {
+  display: none;
+}
+
+#mytools{
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  margin-left: 8%;
+  align-items: stretch;
+}
+
+.divtools{
+  width: 30%;
+  text-align: center;
+}
+
+.icontools{
+  height: 60px;
+}
+
+.backgroundtools{
+  background-color: #f1f1f1;
+  margin: 10px;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+  height: 70%;
+}
+
+.backgroundtools h2{
+  color: rgb(87, 12, 12);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+  text-shadow: 1px 1px #b8b8b8;
+}
+
+.backgroundtools p{
+padding-bottom: 1rem;
+font-family: 'Raleway', sans-serif;
+font-weight: 600;
+font-size: 1rem;
+}
+
+.backgroundtools h3{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 0.7rem;
+  color: rgb(47, 47, 47);
+  padding-bottom: 2rem;
+}
+
+ /* MY WORK */
+ #myworkcont{
+   width: 100%;
+   padding-top: 140px;
+ }
+
+#devwork {
+  width: 100%;
+  margin-bottom: 200px;
+}
+
+#devprojs{
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 8rem;
+  justify-content: space-between;
+}
+
+.divproj{
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  margin-bottom: 2rem;
+  background-color: #f1f1f1;
+}
+
+.divproj p{
+  padding: 1rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 0.8rem;
+  min-height: 3rem;
+  width: 100%;
+}
+
+.divproj h2{
+  color: rgb(87, 12, 12);
+  padding: 1rem;
+  padding-top: 0rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.viewProj:hover{
+  padding-left: 1.3rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.devproj{
+width: 100%;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+margin-bottom: 2%;
+}
+
+.devproj h1{
+  color: rgb(87, 12, 12);
+  padding-top: 16rem;
+  padding-bottom: 1rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+  text-shadow: 1px 1px #b8b8b8;
+  text-align: center;
+}
+
+.devproj h1:hover{
+  font-weight: 700;
+}
+
+#devproj1{
+background-image: url(img/blessed.jpg);
+}
+#devproj2{
+  background-image: url(img/vacunar.jpg);
+}
+#devproj3{
+  background-image: url(img/turismo.jpg);
+}
+#devproj4{
+  background-image: url(img/deimos.jpg);;
+}
+#devproj5{
+  background-image: url(img/rompecabezas.jpg);
+}
+#devproj6{
+  background-image: url(img/usuarios.jpg);
+}
+
+ #carousel{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+ }
+  /* carousel infinito */
+ @keyframes carouselfotos {
+  0% {
+    opacity:1;
+  }
+  17% {
+    opacity:1;
+  }
+  25% {
+    opacity:0;
+  }
+  92% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+ }
+ 
+ #cf4a {
+   position:relative;
+   margin:0 auto;
+   margin-left: 8rem;
+ }
+
+ #cf4a img {
+   position: absolute;
+   width: 30vw;
+   z-index: 1;
+ }
+ 
+ #cf4a img {
+   animation-name: carouselfotos;
+   animation-timing-function: ease-out;
+   animation-iteration-count: infinite;
+   animation-duration: 19s;
+ }
+
+ #cf4a img:nth-of-type(1) {
+  animation-delay: 14s;
+  }
+  #cf4a img:nth-of-type(2) {
+    animation-delay: 12s;
+  }
+  #cf4a img:nth-of-type(3) {
+    animation-delay: 10s;
+  }
+  #cf4a img:nth-of-type(4) {
+    animation-delay: 8s;
+  }
+ #cf4a img:nth-of-type(5) {
+   animation-delay: 6s;
+ }
+ #cf4a img:nth-of-type(6) {
+   animation-delay: 4s;
+ }
+ #cf4a img:nth-of-type(7) {
+   animation-delay: 2s;
+ }
+ #cf4a img:nth-of-type(8) {
+   animation-delay: 0s;
+ }
+
+#ilustraciones{
+  width: 55vw;
+}
+
+.titulosmywork {
+  color: rgb(87, 12, 12);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 3vw;
+  }
+
+#containerilust{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fotitoilus{
+  width: 11.5vw;
+  margin: 1vw;
+  margin-left: 0;
+  filter: grayscale(100%);
+}
+
+.fotitoilus:hover{
+  filter: none;
+  cursor: pointer;
+}
+
+#modalfotos{
+  position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: none;
+  flex-wrap: wrap;
+  width: 100%;
+  z-index: 2;
+  justify-content: center;
+}
+
+#modalfotos h2{
+  background-color: rgb(189, 189, 189);
+  color: rgb(0, 0, 0);
+  width: 6vw;
+  position: absolute;
+  top: 41vw;
+  left: 35vw;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 1vw;
+}
+
+#modalgrande{
+  position: relative;
+  width: 30vw;
+  height: 30vw;
+  top: 13vw;
+}
+
+/* editorial */
+#editorial{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 8vw;
+}
+
+.titulosmywork.margen{
+  margin-left: 8rem;
+  width: 90%;
+  margin-bottom: 2vh;
+}
+
+#diariocont{
+  margin-left: 8rem;
+  width: 40%;
+}
+
+#revista{
+  width: 42.5%;
+}
+
+.diariofoto{
+  width: 95%;
+}
+
+.revistafoto{
+  width: 100%;
+}
+
+.nexted{
+  position: relative;
+  width: 30px;
+  top: -50%;
+  left: 88%;
+}
+
+.nextpng{
+  width: 10px;
+  opacity: 50%;
+}
+
+.nextpng:hover{
+  opacity: 1;
+  width: 11px;
+  cursor: pointer;
+}
+
+/* SISTEMA */
+#sistemagrafico{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 8vw;
+}
+
+.sistemaprimero{
+  width: 45vw;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 8rem;
+}
+
+.sistema1 {
+  height: 15.8vw;
+  margin-bottom: 1vw;
+}
+
+.sistema2 {
+  height: 12.95vw;
+}
+
+.prim{
+  margin-right: 1vw;
+}
+
+#sistematercero{
+  width: 40vw;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#sistemarevista{
+  width: 40vw;
+}
+
+#sistemarevista:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+/* contact */
+#contenedorcontacto {
+  width: 100%;
+  height: 80vh;
+  padding-top: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 1.1vw;
+}
+
+#dejaunmsj{
+  width: 85vw;
+  height: 28vw;
+  background-color:  rgb(226, 226, 226);
+  margin-left: 8rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#textomensaje{
+  width: 30vw;
+}
+
+#marcotexto{
+  width:20vw;
+  height: 20vw;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-left: 4vw;
+  margin-top: 4vw;
+  margin-bottom: 4vw;
+  text-align: center;
+}
+
+#marcotexto h1{
+  color: rgb(87, 12, 12);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 1.7vw;
+  padding-top: 20%;
+  padding-bottom: 8%;
+}
+
+#marcotexto p{
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+#datosmensaje{
+  flex: 60%;
+  width: 50vw;
+  height: 20vw;
+  margin-top: 10%;
+  margin-left: 8%;
+  display: flex;
+  flex-direction: column;
+}
+
+#identificacion{
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#identificacionnombre{
+flex: 35%;
+}
+
+#areatexto{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-top: 1vw;
+}
+
+#botonmensaje{
+width: 90%;
+text-align: right;
+margin-top: 1vw;
+}
+
+.inputstyle{
+margin-left: 0.5vw;
+border: none;
+background-color: white;
+outline: none;
+padding: 0.3vw;
+width: 15vw;
+padding-right: 0;
+}
+
+.inputstyle.email{
+width: 20vw;
+}
+
+.inputstyle.texto{
+  width: 100%;
+  height: 14vw;
+  margin-left: 0;
+  padding-right: 0;
+  margin-top: 0.5vw;
+  resize: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+}
+
+#botonmensaje button{
+  width: 6vw;
+  height: 2vw;
+  border: none;
+  background-color: rgb(87, 12, 12);
+  outline: none;
+  color: white;
+  font-size: 1vw;
+  }
+
+  #botonmensaje button:hover{
+    animation-name: transitionhover;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+  }
+
+  label{
+    color:  rgb(87, 12, 12);
+    font-weight: 700;
+  }
+
+  /* desplazamiento background inicial */
+  .container {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .horizontal {
+  position: fixed;
+  background: url(img/abrazo3.png) no-repeat;
+  background-position-y: 120px;
+  background-position-x: center;
+  background-size: 30%;
+  width: 100%;
+  height: 800px;
+  top: 30px;
+  z-index: -200;
+  }
+
+#pruebitacont{
+  margin-top: 100vh;
+  margin-left: 8rem;
+  margin-bottom: 60px;
+}
+
+#pruebitacont h1{
+  color: rgb(87, 12, 12);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  font-size: 3.2em;
+}
+
+#pruebitacont p{
+  margin-top: 160px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  font-size: 2em;
+}
+
+/* gracias por mirar e idioma */
+#language{
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 8%;
+}
+
+#imglng{
+  width: 50%;
+}
+
+#imglng img {
+  width: 80%;
+  margin-left: 20%;
+  opacity: 80%;
+}
+
+#tkforwatch{
+  width: 40%;
+  position: relative;
+  left: -10%;
+  margin-top: 16%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+#tkforwatch h1{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 2em;
+  text-align: center;
+}
+
+#language input {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 1.2em;
+  background-color: rgb(87, 12, 12);
+  padding: 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  text-decoration: none;
+  border: none;
+  outline:none;
+}
+
+@keyframes transitionhover {
+  0% { color: white;
+    background-color: rgb(87, 12, 12);}
+  100% {color: rgb(87, 12, 12);
+    background-color: #f1f1f1;}
+}
+
+#language input:hover{
+  animation-name: transitionhover;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  cursor: pointer;
+}
+
+/* Project Pages */
+.logoproj {
+  width: 10vw !important;
+}
+
+#aboutproj{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 170px;
+}
+
+#imgaboutproj{
+  margin-left: 8rem;
+  display: flex;
+  align-items: baseline;
+}
+
+#imgaboutproj img{
+  width: 20vw;
+}
+
+.textoaboutproj{
+  padding-left: 8vw;
+  padding-top: 2rem;
+  width: 45vw;
+}
+
+.textoaboutproj h1{  
+    color: rgb(87, 12, 12);
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+      text-shadow: 1px 1px #b8b8b8;
+}
+
+.textoaboutproj h2{  
+  padding-bottom: 1rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 1.5vw;
+}
+
+.textoaboutproj p{
+  font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 1.2vw;
+    padding-bottom: 2rem;
+}
+
+.divlistproj {
+  width: 400px;
+  font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    justify-content: space-between;
+}
+
+.divlistproj li {
+  padding: 0.3rem;
+}
+
+.centerbigimg{
+width: 100vw;
+justify-content: center;
+margin-top: 100px;
+}
+
+.bigimg{
+  width: 80vw;
+}
+
+.centertext{
+  text-align: center;
+  padding-left: 0 !important;
+}
+
+.divsproject{
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.nomarg{
+  padding-left: 0;
+  padding-top: 2rem;
+  width: 40vw;
+}
+
+.nomarg img {
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 2rem;
+}
+
+.divlang{
+  margin-top: 100px;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+} 
+
+#pinkmilk{
+  width: 150px;
+  margin-bottom: 6rem;
+}
+
+.lang {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 2em;
+  text-align: center;
+}
+
+.next{
+  color: rgb(87, 12, 12);
+  padding: 1rem;
+  padding-top: 1.5rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+.next:hover{
+padding-left: 1.3rem;
+font-weight: 800;
+cursor: pointer;
+}
+
+/* scroll reveal */
+.probando{
+  visibility: hidden;
+}
+
+
+@media (min-width: 1150px) {
+  .devproj:hover{
+    filter: brightness(80%);
+    -webkit-filter: brightness(80%);
+    background-size: 145%;
+  }  
+  .devproj:hover ~ .linkhover .viewProj{
+    padding-left: 1.3rem;
+    font-weight: 800;
+  }
+}
+
+
+@media only screen and (max-width: 1150px) {
+
+    #home {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    #logo{
+        margin-left: 0;
+        width: 30vw;
+    }
+
+    #menu {
+        flex: 100%;
+        padding-bottom: 0.5rem;
+        padding-top: 0.3rem;
+    }
+
+    .hidemenuproj{
+      display: none !important;
+    }
+
+    #menunav {
+        padding-right: 0;
+        justify-content: center;
+        font-size: 0.7rem;
+    }
+
+    #menunav a{
+        font-size: 0.7rem;
+      }
+
+      #menunav p{
+        font-size: 0.7rem;
+      }
+
+      #menunav a:last-child {
+        padding-right: 1rem;
+      }
+
+    #menuredes {
+        display: none;
+      }
+
+    footer {  
+        display: flex;
+        width: 100%;
+        padding-bottom: 2vh;
+        z-index: 3;
+    }
+
+    #footerredes{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .iconos {
+        padding: 0;
+        height: 6vw;
+      }
+  
+    #piedepag p{
+        display: none;
+    }
+
+    /* aboutme */
+    #aboutmecont{
+      flex-direction: column;
+    }
+
+    #imgaboutme{
+      padding-top: 10vh;
+      align-self: center;
+      margin-left: 0rem;
+    }
+    
+    #imgaboutme img{
+      width: 50vw;
+    }
+    
+    #textoaboutme{
+      align-self: center;
+      padding-left: 0;
+      padding-top: 1rem;
+      width: 70vw;
+    }
+
+    #textoaboutme h1{  
+        padding-bottom: 5vw;
+        font-size: 1.2rem;
+    }
+    
+    #textoaboutme h2{  
+      font-size: 0.8rem;
+    }
+
+    #textoaboutme p{
+        font-size: 0.7rem;
+        text-align: justify;
+    }
+    
+    #gifflecha {
+      display: none;
+    }
+
+    #gifflecha2 {
+      display: block;
+      transform: rotate(-220deg);
+      position: absolute;
+      margin-left: 25vw;
+      margin-top: -8vw;
+      width: 18vw;
+      opacity: 0.5;
+    }
+    
+    #enlacescv{
+      width: 70vw;
+      align-self: center;
+        font-size: 3vw;
+        margin-left: 0;
+        margin-top: 10vw;
+        margin-bottom: 15vw;
+    }
+
+    /* MY WORK */
+
+ #myworkcont{
+   width: 100%;
+}
+
+#cf4a {
+  margin-top: 8vw;
+  margin-left: 0;
+}
+
+#cf4a img {
+  margin-left:10vw;
+  width: 80vw;
+}
+
+#ilustraciones{
+ width: 100%;
+ margin-top: 85vw;
+ margin-left:10vw;
+}
+
+#containerilust{
+width: 80vw;
+}
+
+.fotitoilus{
+ width: 19vw;
+}
+
+/* modal */
+
+#modalfotos h2{
+  top: 50vw;
+  left: 33vw;
+}
+
+#modalgrande{
+   width: 34vw;
+  height: 34vw;
+  top: 18vw;
+}  
+
+/* editorial */
+.titulosmywork.margen{
+  margin-left:10vw;
+  width: 80vw;
+}
+
+#diariocont{
+margin-left:10vw;
+width: 80vw; 
+}
+
+#revista{
+  margin-left:10vw;
+  width: 100%;
+}
+
+.diariofoto{
+  width: 100%;
+}
+
+.revistafoto{
+  width: 100%;
+}
+
+/* sistema */
+#sistemagrafico{
+  width: 100%;
+  margin-bottom: 10vw;
+}
+
+.sistemaprimero{
+  width: 80vw;
+  margin-left:10vw;
+}
+
+.sistema1 {
+  height: 29.7vw;
+  margin-bottom: 1vw;
+}
+
+.sistema2 {
+  height: 24.37vw;
+}
+
+.prim{
+  margin-right: 1vw;
+}
+
+#sistematercero{
+  margin-top: 1vw;
+  width: 80vw;
+  margin-left:10vw;
+}
+
+#sistemarevista{
+  width: 80vw;
+}
+
+#dejaunmsj{
+  width: 85vw;
+  margin-top: 10vw;
+  margin-left: 7.5vw;
+}
+
+#language{
+  margin-bottom: 4rem;
+}
+
+#mytools{
+  width: 100%;
+  margin-left: 0%;
+  justify-content: space-evenly;
+}
+
+#devprojs{
+  width: 90%;
+  margin-left: 5%;
+}
+
+.divproj p{
+  min-height: 5rem;
+}
+
+.divproj h2{
+  min-height: 3rem;
+}
+
+.devproj{
+  background-size: contain;
+  }
+
+  .devproj h1{
+    padding-top: 11rem;
+    padding-bottom: 2rem;
+  }
+
+  .devproj:hover{
+    filter: brightness(80%);
+    -webkit-filter: brightness(80%);
+  }
+
+}
+
+/* Project Pages */
+.logoproj {
+  width: 150px !important;
+}
+
+#aboutproj{
+  justify-content: center;
+}
+
+#imgaboutproj{
+  margin-left: 0;
+  align-items: flex-end;
+}
+
+#imgaboutproj img{
+  width: 200px;
+}
+
+.textoaboutproj h1{  
+    padding-bottom: 1rem;
+}
+
+.textoaboutproj h2{  
+  font-size: 1rem;
+}
+
+.textoaboutproj p{
+    font-size: 0.8rem;
+    padding-bottom: 1rem;
+}
+
+.divlistproj {
+  width: 45vw;
+  padding-bottom: 1rem;
+}
+
+#projfoot{
+  display: block;
+  text-align: center;
+  width: 100%;
+  background-color: #f1f1f1;
+  padding: 1%;
+  padding-right: 0;
+  padding-left: 0;
+  font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+
+    @media only screen and (max-width: 750px) {
+
+      .horizontal {
+        background-position-y: 120px;
+        background-size: 80%;
+        }
+      
+      #pruebitacont{
+        margin-left: 10vw;
+      }
+      
+      #pruebitacont h1{
+        font-size: 3em;
+      }
+      
+      #pruebitacont p{
+        margin-top: 100px;
+        font-size: 1.5em;
+        margin-right: 10vw;
+      }
+      
+      .backgroundtools h2{
+        font-size: 1.2rem;
+      }
+
+      #myworkcont {
+        padding-top: 110px;
+      }
+
+      #devwork {
+        margin-bottom: 60px;
+    }
+
+        .devproj h1{
+          padding-top: 6rem;
+          padding-bottom: 0rem;
+          font-size: 1rem;
+        }
+
+#devprojs{
+ justify-content: space-evenly;
+}
+
+.divproj{
+ width: 200px;
+}
+
+.divproj p{
+ font-size: 0.7rem;
+}
+
+.divproj h2{
+ font-size: 0.7rem;
+}
+   
+/* modal */
+      #modalfotos h2{
+        top: 71vw;
+        left: 26vw;
+      }
+      #modalgrande{
+        width: 50vw;
+        height: 50vw;
+        top: 25vw;
+      }
+      
+      /* contact */
+      #contenedorcontacto {
+        height: 80vw;
+        padding-top: 60px;
+      }
+      #dejaunmsj{
+        width: 85vw;
+        height: 50vw;
+      }
+
+      #textomensaje{
+        width: 100%;
+        height: 20vw;
+      }
+      #datosmensaje{
+        flex: 100%;
+        width: 80vw;
+        margin-top: 0;
+      }
+      #marcotexto{
+        width:50vw;
+        height: 15vw;
+        background-color: rgba(255, 255, 255, 0.8);
+        margin-left: 18vw;
+        margin-top: 4vw;
+        margin-bottom: 4vw;
+        text-align: center;
+      }
+
+      #marcotexto h1{
+        padding-top: 4vw;
+        padding-bottom: 2vw;
+      }
+
+      #marcotexto p{
+        padding-left: 8%;
+        padding-right: 8%;
+      }
+
+/* gracias por mirar e idioma */
+#language{
+  margin-bottom: 8rem;
+}
+
+#imglng{
+  width: 70%;
+}
+
+#imglng img {
+  width: 100%;
+  margin-left: 15%;
+}
+
+#tkforwatch{
+  width: 30%;
+  left: -40%;
+  margin-top: 56%;
+}
+
+#tkforwatch h1{
+  font-size: 1.2em;
+}
+
+#language input {
+  font-size: 0.8em;
+}
+    
+}
+
+
+    @media only screen and (max-width: 480px) {
+
+      .container {
+        display: none;
+      }
+      #ocult{
+        height: 10vh;
+      }
+      #pruebitacont{
+        margin-top: 10vh;
+        width: 100%;
+        height: 200vh;
+        margin-left: 0;
+        background: url(img/abrazo3.png) no-repeat;
+        background-size: cover;
+        background-position:0px 10vh;
+        background-attachment: fixed;
+      }
+      
+      #pruebitacont h1{
+        font-size: 2.4em;
+        padding-top: 100vh;
+        margin-left: 5%;
+      }
+      
+      #pruebitacont p{
+        margin-top: 100px;
+        font-size: 1.8em;
+        margin-left: 5%;
+      }
+
+      #aboutmecont {
+        padding-top: 50px;
+    }
+
+    #imgaboutme{
+      padding-top: 0;
+    }
+    #mytools{
+      width: 90%;
+      flex-direction: column;
+      padding-top: 0px;
+      margin-left: 5%;
+    }
+    
+    .divtools{
+      width: 90%;
+      margin-left: 5%;
+      margin-top: 60px;
+    }
+    
+    .icontools{
+      height: 40px;
+    }
+
+    #margincero{
+      margin-left: 10%;
+      font-size: 1.5em;
+    }
+    
+    #devprojs{
+      width: 100%;
+      margin-left: 0;
+      flex-direction: column;
+    }
+    
+    .divproj{
+      width: 80%;
+      margin-left: 10%;
+    }
+    
+    .divproj p{
+          min-height: 0rem;
+    }
+    
+    .divproj h2{
+      min-height: 0rem;
+    }
+    
+    .devproj{
+    width: 100%;
+    background-size: cover;
+    }
+    
+    .devproj h1{
+      padding-top: 12rem;
+      padding-bottom: 1rem;
+    }
+
+   .fotitoilus{
+    width: 39vw;
+   }
+
+/* modal */
+#modalfotos h2{
+  top: 125vw;
+  left: 8vw;
+  width: 10vw;
+  font-size: 2vw;
+}
+#modalgrande{
+   width: 90vw;
+  height: 90vw;
+  top: 40vw;
+}  
+
+#contenedorcontacto {
+  height: auto;
+  font-size: 2vw;
+}
+
+#dejaunmsj{
+  width: 70vw;
+  height: 90vw;
+  margin-left: 15vw;
+}
+
+#textomensaje{
+  flex: 100;
+}
+
+#marcotexto{
+  width:50vw;
+  height: 23vw;
+  margin-left: 10vw;
+  margin-top: 10vw;
+  margin-bottom: 10vw;
+}
+#marcotexto h1{
+  font-size: 3vw;
+}
+
+#datosmensaje{
+  flex: 100%;
+  width: 70vw;
+  height: 30vw;
+  margin-left: 10vw;
+}
+
+#identificacionnombre{
+flex: 100%;
+margin-bottom: 2vw;
+}
+
+#areatexto{
+  margin-top: 2vw; 
+}
+#botonmensaje{
+width: 50vw;
+text-align: center;
+ margin-top: 2vw;
+}
+
+.inputstyle{
+width: 42.5vw;
+font-size: 2vw;
+}
+.inputstyle.email{
+width: 43vw;
+}
+
+.inputstyle.texto{
+   width: 50vw;
+  height: 25vw;
+  margin-top: 1vw;
+}
+
+#botonmensaje button{
+  width: 15vw;
+  height: 5vw;
+  font-size: 2vw;
+  }
+
+  #language{
+    margin-bottom: 6rem;
+    margin-top: 6rem;
+  }
+
+/* Project Pages */
+.logoproj {
+  width: 100px !important;
+}
+
+#aboutproj{
+  padding-top: 100px;
+}
+
+.textoaboutproj{
+  padding-left: 0;
+  padding-top: 1rem;
+  width: 70vw;
+}
+
+.textoaboutproj p{
+  text-align: justify;
+}
+
+.divlistproj {
+  width: 70vw;
+    font-size: 0.8rem;
+}
+
+.divlistproj li {
+  padding: 0.3rem 0;
+}
+
+.centerbigimg{
+margin-top: 50px;
+}
+
+.bigimg{
+  width: 96vw;
+}
+
+.centertext{
+  text-align: left;
+  padding-left: 0 !important;
+}
+
+.divsproject{
+  margin-top: 100px;
+}
+
+.nomarg{
+  width: 70vw;
+}
+
+.nomarg img {
+  width: 100%;
+  margin-left: 0;
+}
+.mobiletitle{
+  font-size: 1.2rem !important;
+}
+
+}

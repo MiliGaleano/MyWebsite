@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,300&display=swap" rel="stylesheet">
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <!-- scrollreveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="style.css">
+    <link  rel="icon" href="img/favicon3.png" type="image/png"/>
+    <title>Mili Galeano</title>
+</head>
+
+<body>
+
+    <!-- modal abrir ilustracion -->
+    <div id="modalfotos">
+        <img src="" alt="Illustration" id="modalgrande">
+        <h2 id="titulomodal"></h2>
+    </div>
+
+    <!-- header -->
+    <header class="flex">
+        <!-- logo -->
+        <div id="home"><img src="img/mili.png" alt="Page logo" id="logo" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });"></div>
+        <!-- menu -->
+        <div id="menu">
+            <ul class="flex" id="menuredes">
+                <li><a href="http://www.instagram.com/mmiligaleano" target="_blank"><img src="img/ig.png" alt="instagram icon" class="iconos"></a></li>
+                <li><a href="http://www.behance.com/MiliGaleano" target="_blank"><img src="img/behance.png" alt="behance  icon" class="iconos"></a></li>
+                <li><a href="https://www.linkedin.com/in/milagros-galeano/" target="_blank"><img src="img/linkedin.png" alt="linkedin  icon" class="iconos"></a></li>
+                <li><a href="http://www.github.com/MiliGaleano" target="_blank"><img src="img/git1.png" alt="github  icon" class="iconos"></a></li>
+                <li><a href="mailto:mmiligaleano@gmail.com" target="_blank"><img src="img/mail.png" alt="mail  icon" class="iconos"></a></li>
+            </ul>
+            <nav id="menunav" class="flex">
+                <a href="#aboutmecont"><p class="menulan">about me</p></a> |
+                <!-- sobre mí -->
+                <a href="#myworkcont"><p class="menulan">my work</p></a> |
+                <!-- trabajos -->
+                <a href="#contenedorcontacto"><p class="menulan">contact me</p></a>
+                <!-- contacto -->
+            </nav>
+        </div>
+    </header>
+
+        <div id="pruebitacont" class="probando">
+            <h1 class="menulan">Graphic designer <br>& Front-end developer</h1>
+            <p class="menulan">I enjoy creating beautifully simple things. I design. I code. I draw. I love what I do.</p>
+        </div>
+
+    <!-- about me -->
+    <div id="aboutmecont">
+        <img src="img/flecha.gif" alt="Arrow gif" id="gifflecha">
+        <!-- <img src="img/flechanueva.gif" alt="gifflecha" id="gifflecha"> -->
+        <div id="imgaboutme"><img src="img/miligaleano.jpg" alt="Picture of the web designer"></div>
+        <div id="textoaboutme"><img src="img/flecha.gif" alt="Arrow gif" id="gifflecha2">
+            <h1 class="menulan">Who am I?</h1>
+            <h2 class="menulan">Hi! First of all, thank you for visiting my website!</h2>
+            <p class="menulan">I'm a graphic designer and newbie developer mostly interested in Front-end development.
+                I really enjoy doing projects that challenge me to learn new things.
+                Thats how I had my first experience with programming: A few years ago I received 5 shots in one go because I couldn't find my Innmunization records.
+                I thought it was unbelievable that we still depend on a sheet of paper to keep that kind of relevant information, so I decided to make my own vaccination registry.
+            </p><br>
+            <p class="menulan">I knew a little HTML and CSS from a class I took while studying for my degree. With the help of Stack Overflow and Youtube I teached myself some JavaScript and started. 
+                I intended to add a lot of functionalities that were obviously way above my capacities, but in the end I managed to do something that worked -kinda-. It was SO cool to see something useful made by myself, I was convinced that was what I wanted to do.
+                Since then, I've been polishing my Javascript and learning React, mostly trough online courses and reading documentation. Whenever I learn something new I go back to my little project and try to improve it. 
+                I think I'm ready to take in a full-time role where I can continue to learn and at the same time help a company achieve their goals.  
+            </p>
+        </div>
+        <div id="enlacescv">
+            <p class="menulan">If you'd like to know more about me click <a href="doc/Galeano Milagros Resume.pdf" download target="_blank" class="linkcv" >here</a> to see my resume.
+        </div>
+        <div id="mytools">
+            <div id="devtools" class="divtools">
+                <img src="img/develop3.png" alt="Computer icon" class="icontools">
+                <div class="backgroundtools">
+                    <h2 class="menulan">dev tools</h2>
+                    <p>HTML5</p>
+                    <p>CSS3</p>
+                    <p>JavaScript</p>
+                    <p>React.js</p>
+                    <p>Bootstrap</p>
+                    <p>Firebase</p>
+                </div>
+            </div>
+            <div id="designtools" class="divtools">
+                <img src="img/design3.png" alt="Pencil icon" class="icontools">
+                <div class="backgroundtools">
+                    <h2 class="menulan">design tools</h2>
+                    <p>Photoshop</p>
+                    <p>Illustrator</p>
+                    <p>InDesign</p>
+                    <p>PremierPro</p>
+                    <p>Invision</p>
+                    <p>UX-UI</p>
+                </div>
+            </div>
+            <div id="edutools" class="divtools">
+                <img src="img/education2.png" alt="Book icon" class="icontools">
+                <div class="backgroundtools">
+                    <h2 class="menulan">education</h2>
+                    <p class="menulan">Graphic design</p>
+                    <h3>Universidad de Buenos Aires</h3>
+                    <p>Mobile apps</p>
+                    <h3>Comunidad IT</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- my work -->
+    <div id="myworkcont">
+
+        <div id="devwork" class="probando">
+            <h1 class="titulosmywork margen menulan" id="margincero">Projects</h1>
+            <div id="devprojs">
+                <div class="divproj">
+                    <div id="devproj1" class="devproj">
+                        <a href="project1.html"><h1>BLessed App</h1></a>
+                    </div>
+                    <p class="menulan">A watchlist app where you can keep track of the things you have watched, make your favourites list and find new things to watch.</p>
+                    <a href="project1.html" class="linkhover"><h2 class="viewProj menulan">VIEW PROJECT ➟</h2></a>
+                </div>
+                <div class="divproj">
+                    <div id="devproj2" class="devproj">
+                        <a href="project2.html"><h1>VacunAr App</h1></a>
+                    </div>
+                    <p class="menulan">An app to keep your Immunization registry organized. Save your vaccination records and find the nearest place to take your next vaccine.</p>
+                    <a href="project2.html" class="linkhover"><h2 class="viewProj menulan">VIEW PROJECT ➟</h2></a>
+                </div>
+                <div class="divproj">
+                    <div id="devproj3" class="devproj">
+                        <a href="https://miligaleano.github.io/Turismo/" target="_blank"><h1>Turismo</h1></a>
+                    </div>
+                    <p class="menulan">A web where you can find where to go and what to do while travelling in Argentina. Check maps and currently and extended weather info.</p>
+                    <a href="project1.html" target="_blank" class="linkhover"><h2 class="viewProj menulan">DEMO</h2></a>
+                </div>
+                <div class="divproj">
+                    <div id="devproj4" class="devproj">
+                        <a href="https://miligaleano.github.io/Deimos-y-Fobos/" target="_blank"><h1>Deimos web</h1></a>
+                    </div>
+                    <p class="menulan">Deimos & Fobos website. Promoting the launching of their new documental series and virtual reality game.</p>
+                    <a href="https://miligaleano.github.io/Deimos-y-Fobos/" target="_blank" class="linkhover"><h2 class="viewProj">DEMO</h2></a>
+                </div>
+                <div class="divproj">
+                    <div id="devproj5" class="devproj">
+                        <a href="https://miligaleano.github.io/Rompecabezas/" target="_blank"><h1>Puzzles web</h1></a>
+                    </div>
+                    <p class="menulan">A web where you can play with Tutor and Fighter jigsaw puzzles. There are two different types of games.</p>
+                    <a href="https://miligaleano.github.io/Rompecabezas/" target="_blank" class="linkhover"><h2 class="viewProj">DEMO</h2></a>
+                </div>
+                <div class="divproj">
+                    <div id="devproj6" class="devproj">
+                        <a href="https://miligaleano.github.io/RegistroUsuarios/" target="_blank"><h1>Usuarios</h1></a>
+                    </div>
+                    <p class="menulan">LocalStorage based registry of users.</p>
+                    <a href="https://miligaleano.github.io/RegistroUsuarios/" target="_blank" class="linkhover"><h2 class="viewProj">DEMO</h2></a>
+                </div>
+            </div>
+        </div>
+
+        <div id="carousel" class="probando">
+            <div id="cf4a" class="shadow">
+                <img src="img/Sunset.jpg" />
+                <img src="img/Sotus.jpg" />
+                <img src="img/Schitts.jpg" />
+                <img src="img/Kinney.jpg" />
+                <img src="img/Cande.jpg" />
+                <img src="img/Gale.jpg" />
+                <img src="img/Charisma.jpg" />
+                <img src="img/Dolan.jpg" />
+            </div>
+            <div id="ilustraciones">
+                <h1 class="titulosmywork menulan">Illustrations</h1>
+                <!-- Ilustraciones -->
+                <div id="containerilust">
+                    <img src="img/Sunset.jpg" class="fotitoilus" onclick="abrirgrande(this)" id="Sunset"/>
+                    <img src="img/Fightor.jpg" class="fotitoilus" onclick="abrirgrande(this)" id="Fightor"/>
+                    <img src="img/Schitts.jpg" class="fotitoilus" onclick="abrirgrande(this)" id="Schitts"/>
+<!--                     <img src="img/Kinney.jpg" class="fotitoilus" onclick="abrirgrande(this)" id="Kinney"/> -->
+                    <img src="img/Wangxian.jpg" class="fotitoilus" onclick="abrirgrande(this)" id="Wangxian"/>
+                    <img src="img/Cande.jpg" class="fotitoilus" onclick="abrirgrande(this)" id="Cande"/>
+                    <img src="img/Gale.jpg" class="fotitoilus" onclick="abrirgrande(this)" id="Gale"/>
+                    <img src="img/Charisma.jpg" class="fotitoilus" onclick="abrirgrande(this)" id="Charisma"/>
+                    <img src="img/Dolan.jpg" class="fotitoilus" onclick="abrirgrande(this)" id="Dolan"/>
+                </div>
+            </div>
+        </div>
+
+        <div id="editorial" class="probando">
+            <h1 class="titulosmywork margen menulan">Editorial design</h1>
+            <!-- Diseño editorial -->
+            <div id="diariocont">
+                    <img src="img/diario1.jpg" class="diariofoto" id="dd" alt="Newspaper design" onclick="cambiardiario()"/>
+                    <div class="nexted"><img src="img/next.png" alt="Next icon" class="nextpng" onclick="cambiardiario()"></div>
+            </div>
+            <div id="revista">
+                <img src="img/revis1.jpg" class="revistafoto" alt="Magazine design" id="rr" onclick="cambiarrevista()"/>
+                <div class="nexted"><img src="img/next.png" alt="Next icon" class="nextpng" onclick="cambiarrevista()"></div>
+            </div>
+        </div>
+
+        <div id="sistemagrafico" class="probando">
+            <h1 class="titulosmywork margen menulan">Visual identity</h1>
+            <!-- Identidad visual -->
+            <div class="sistemaprimero">
+                <img src="img/papeleria.jpg" alt="Card design" class="sistema1 prim">
+                <img src="img/brochure2.jpg" alt="Brochure design" class="sistema1">
+                <img src="img/afiches.jpg" alt="Poster design" class="sistema2 prim">
+                <img src="img/postales.jpg" alt="Postal design" class="sistema2">
+            </div>
+            <div id="sistematercero">
+                <img src="./img/fotorevista.jpg" alt="Magazine design" id="sistemarevista" onclick="cambiaragif()">
+            </div>
+        </div>
+    </div>
+
+    <!-- contact -->
+    <div id="contenedorcontacto" class="probando">
+        <div id="dejaunmsj">
+                <div id="textomensaje">
+                    <div id="marcotexto">
+                        <h1 class="menulan">Leave a comment</h1>
+                        <p class="menulan">If you'd like to work with me or have any questions about my work, please leave me a message and I will contact you as soon as possible.</p>
+                    </div>
+                </div>
+                <form action="https://submit-form.com/6HThU7b5" method="">
+                    <input type="hidden" name="_redirect" value="https://miligaleano.github.io/MyWebsite/contact.html" />
+                    <div id="datosmensaje">
+                        <div id="identificacion">
+                            <div id="identificacionnombre">
+                                <label for="name" class="menulan">Name:</label>
+                                <input type="text" id="name" name="user_name" class="inputstyle" maxlength="35" required>
+                            </div>
+                            <div id="identificacionmail">
+                                <label for="mail">Email:</label>
+                                <input type="email" id="mail" name="email" class="inputstyle email" required>
+                            </div>
+                        </div>
+                        <div id="areatexto">
+                            <label for="msg" class="menulan">Message:</label>
+                            <textarea id="msg" name="user_message" class="inputstyle texto" maxlength="700" required></textarea>
+                        </div>
+                        <div id="botonmensaje">
+                            <button type="submit" class="menulan">SEND</button>
+                        </div>
+                    </div>
+                </form>
+        </div>
+    </div>
+
+    <div id="language">
+        <div id="imglng">
+            <img src="img/beso2.png" alt="Illustration of two people kissing">
+        </div>
+        <div id="tkforwatch">
+            <h1 class="menulan">Thanks for watching!</h1>
+            <input type="button" onclick="changelang(spanish)" value="español" id="idioma">
+        </div>
+    </div>
+
+<div class="container">
+    <div class="horizontal probando"></div>
+ </div>
+
+    <div id="piedepag">
+        <p>Milagros Galeano - 2020</p>
+    </div>
+    <footer>
+        <ul id="footerredes" >
+            <li><a href="http://www.instagram.com/mmiligaleano" target="_blank"><img src="img/ig.png" alt="instagram icon" class="iconos"></a></li>
+            <li><a href="http://www.behance.com/MiliGaleano" target="_blank"><img src="img/behance.png" alt="behance icon" class="iconos"></a></li>
+            <li><a href="https://www.linkedin.com/in/milagros-galeano/" target="_blank"><img src="img/linkedin.png" alt="linkedin icon" class="iconos"></a></li>
+            <li><a href="http://www.github.com/MiliGaleano" target="_blank"><img src="img/git1.png" alt="github icon" class="iconos"></a></li>
+            <li><a href="mailto:mmiligaleano@gmail.com"><img src="img/mail.png" alt="mail icon" class="iconos"></a></li>
+        </ul>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

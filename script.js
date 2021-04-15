@@ -1,21 +1,5 @@
 console.log('gracias por visitar mi página!')
 
-// scroll inicial
-if (window.location.href.indexOf('index.html') !== -1) {
-    $(document).ready(function () {
-        let $horizontal = $('.horizontal');
-        let startPosition = $horizontal.position().left;
-        let speed = 60;
-        $(window).scroll(function () {
-            let st = $(this).scrollTop();
-            let newPos = (st * (speed/100)) + startPosition;
-            $horizontal.css({
-                'left': newPos
-            });
-        });
-    });
-}
-
 // abrir imagen grande en my work - ilustraciones
 function abrirgrande(a){
    let obtenerdiv = document.getElementById("modalfotos");
@@ -233,7 +217,23 @@ let language = sessionStorage.getItem('language');
                 lan2[i].innerHTML = project2[i];
             }
         }
-   } else if (window.location.href.indexOf('index.html') !== -1) {
+   } else {
+        // scroll inicial
+        if (window.location.href.indexOf('index.html') !== -1) {
+            $(document).ready(function () {
+                let $horizontal = $('.horizontal');
+                let startPosition = $horizontal.position().left;
+                let speed = 60;
+                $(window).scroll(function () {
+                    let st = $(this).scrollTop();
+                    let newPos = (st * (speed/100)) + startPosition;
+                    $horizontal.css({
+                        'left': newPos
+                    });
+                });
+            });
+        }
+
         if (language === 'true') {
             let menulan = document.getElementsByClassName('menulan');
             for (let i = 0; i<menulan.length; i++) {

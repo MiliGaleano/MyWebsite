@@ -219,7 +219,6 @@ let language = sessionStorage.getItem('language');
         }
    } else {
         // scroll inicial
-        if (window.location.href.indexOf('index.html') !== -1) {
             $(document).ready(function () {
                 let $horizontal = $('.horizontal');
                 let startPosition = $horizontal.position().left;
@@ -232,7 +231,6 @@ let language = sessionStorage.getItem('language');
                     });
                 });
             });
-        }
 
         if (language === 'true') {
             let menulan = document.getElementsByClassName('menulan');

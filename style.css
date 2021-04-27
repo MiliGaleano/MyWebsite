@@ -118,7 +118,6 @@
 
 #imgaboutme img{
   width: 20vw;
-  margin-top: 5.2rem;
 }
 
 #textoaboutme{
@@ -151,8 +150,8 @@
 
 #gifflecha {
   position: absolute;
-  margin-left: 26vw;
-  width: 150px;
+  margin-left: 29vw;
+  width: 120px;
   opacity: 0.5;
 }
 
@@ -235,94 +234,6 @@ font-size: 1rem;
    width: 100%;
    padding-top: 140px;
  }
-
-#devwork {
-  width: 100%;
-  margin-bottom: 200px;
-}
-
-#devprojs{
-  width: 85%;
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: 8rem;
-  justify-content: space-between;
-}
-
-.divproj{
-  width: 30%;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: stretch;
-  margin-bottom: 2rem;
-  background-color: #f1f1f1;
-}
-
-.divproj p{
-  padding: 1rem;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 400;
-  font-size: 0.8rem;
-  min-height: 3rem;
-  width: 100%;
-}
-
-.divproj h2{
-  color: rgb(87, 12, 12);
-  padding: 1rem;
-  padding-top: 0rem;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 0.8rem;
-}
-
-.viewProj:hover{
-  padding-left: 1.3rem;
-  font-weight: 800;
-  cursor: pointer;
-}
-
-.devproj{
-width: 100%;
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-margin-bottom: 2%;
-}
-
-.devproj h1{
-  color: rgb(87, 12, 12);
-  padding-top: 16rem;
-  padding-bottom: 1rem;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600;
-  font-size: 1.6rem;
-  text-shadow: 1px 1px #b8b8b8;
-  text-align: center;
-}
-
-.devproj h1:hover{
-  font-weight: 700;
-}
-
-#devproj1{
-background-image: url(img/blessed.jpg);
-}
-#devproj2{
-  background-image: url(img/vacunar.jpg);
-}
-#devproj3{
-  background-image: url(img/turismo.jpg);
-}
-#devproj4{
-  background-image: url(img/deimos.jpg);;
-}
-#devproj5{
-  background-image: url(img/rompecabezas.jpg);
-}
-#devproj6{
-  background-image: url(img/usuarios.jpg);
-}
 
  #carousel{
   width: 100%;
@@ -781,153 +692,9 @@ width: 20vw;
   cursor: pointer;
 }
 
-/* Project Pages */
-.logoproj {
-  width: 10vw !important;
-}
-
-#aboutproj{
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  padding-top: 170px;
-}
-
-#imgaboutproj{
-  margin-left: 8rem;
-  display: flex;
-  align-items: baseline;
-}
-
-#imgaboutproj img{
-  width: 20vw;
-}
-
-.textoaboutproj{
-  padding-left: 8vw;
-  padding-top: 2rem;
-  width: 45vw;
-}
-
-.textoaboutproj h1{  
-    color: rgb(87, 12, 12);
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 900;
-    font-size: 2rem;
-      text-shadow: 1px 1px #b8b8b8;
-}
-
-.textoaboutproj h2{  
-  padding-bottom: 1rem;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600;
-  font-size: 1.5vw;
-}
-
-.textoaboutproj p{
-  font-family: 'Raleway', sans-serif;
-    font-weight: 500;
-    font-size: 1.2vw;
-    padding-bottom: 2rem;
-}
-
-.divlistproj {
-  width: 400px;
-  font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    font-size: 1rem;
-    justify-content: space-between;
-}
-
-.divlistproj li {
-  padding: 0.3rem;
-}
-
-.centerbigimg{
-width: 100vw;
-justify-content: center;
-margin-top: 100px;
-}
-
-.bigimg{
-  width: 80vw;
-}
-
-.centertext{
-  text-align: center;
-  padding-left: 0 !important;
-}
-
-.divsproject{
-  width: 100%;
-  justify-content: space-evenly;
-}
-
-.nomarg{
-  padding-left: 0;
-  padding-top: 2rem;
-  width: 40vw;
-}
-
-.nomarg img {
-  width: 70%;
-  margin-left: 15%;
-  margin-bottom: 2rem;
-}
-
-.divlang{
-  margin-top: 100px;
-  width: 100%;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 2rem;
-} 
-
-#pinkmilk{
-  width: 150px;
-  margin-bottom: 6rem;
-}
-
-.lang {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 800;
-  font-size: 2em;
-  text-align: center;
-}
-
-.next{
-  color: rgb(87, 12, 12);
-  padding: 1rem;
-  padding-top: 1.5rem;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 0.8rem;
-}
-.next:hover{
-padding-left: 1.3rem;
-font-weight: 800;
-cursor: pointer;
-}
-
 /* scroll reveal */
 .probando{
   visibility: hidden;
-}
-
-
-@media (min-width: 1150px) {
-  .devproj:hover{
-    filter: brightness(80%);
-    -webkit-filter: brightness(80%);
-    background-size: 145%;
-  }  
-  .devproj:hover ~ .linkhover .viewProj{
-    padding-left: 1.3rem;
-    font-weight: 800;
-  }
 }
 
 
@@ -1031,7 +798,7 @@ cursor: pointer;
 
     #textoaboutme p{
         font-size: 0.7rem;
-        text-align: justify;
+        text-align: left;
     }
     
     #gifflecha {
@@ -1101,6 +868,10 @@ width: 80vw;
 }  
 
 /* editorial */
+.titulosmywork {
+  font-size: 1.2rem;
+}
+
 .titulosmywork.margen{
   margin-left:10vw;
   width: 80vw;
@@ -1174,82 +945,7 @@ width: 80vw;
   justify-content: space-evenly;
 }
 
-#devprojs{
-  width: 90%;
-  margin-left: 5%;
-}
 
-.divproj p{
-  min-height: 5rem;
-}
-
-.divproj h2{
-  min-height: 3rem;
-}
-
-.devproj{
-  background-size: contain;
-  }
-
-  .devproj h1{
-    padding-top: 11rem;
-    padding-bottom: 2rem;
-  }
-
-  .devproj:hover{
-    filter: brightness(80%);
-    -webkit-filter: brightness(80%);
-  }
-
-}
-
-/* Project Pages */
-.logoproj {
-  width: 150px !important;
-}
-
-#aboutproj{
-  justify-content: center;
-}
-
-#imgaboutproj{
-  margin-left: 0;
-  align-items: flex-end;
-}
-
-#imgaboutproj img{
-  width: 200px;
-}
-
-.textoaboutproj h1{  
-    padding-bottom: 1rem;
-}
-
-.textoaboutproj h2{  
-  font-size: 1rem;
-}
-
-.textoaboutproj p{
-    font-size: 0.8rem;
-    padding-bottom: 1rem;
-}
-
-.divlistproj {
-  width: 45vw;
-  padding-bottom: 1rem;
-}
-
-#projfoot{
-  display: block;
-  text-align: center;
-  width: 100%;
-  background-color: #f1f1f1;
-  padding: 1%;
-  padding-right: 0;
-  padding-left: 0;
-  font-family: 'Raleway', sans-serif;
-    font-weight: 500;
-    font-size: 1rem;
 }
 
 
@@ -1448,35 +1144,6 @@ width: 80vw;
       margin-left: 10%;
       font-size: 1.5em;
     }
-    
-    #devprojs{
-      width: 100%;
-      margin-left: 0;
-      flex-direction: column;
-    }
-    
-    .divproj{
-      width: 80%;
-      margin-left: 10%;
-    }
-    
-    .divproj p{
-          min-height: 0rem;
-    }
-    
-    .divproj h2{
-      min-height: 0rem;
-    }
-    
-    .devproj{
-    width: 100%;
-    background-size: cover;
-    }
-    
-    .devproj h1{
-      padding-top: 12rem;
-      padding-bottom: 1rem;
-    }
 
    .fotitoilus{
     width: 39vw;
@@ -1566,62 +1233,5 @@ width: 43vw;
     margin-bottom: 6rem;
     margin-top: 6rem;
   }
-
-/* Project Pages */
-.logoproj {
-  width: 100px !important;
-}
-
-#aboutproj{
-  padding-top: 100px;
-}
-
-.textoaboutproj{
-  padding-left: 0;
-  padding-top: 1rem;
-  width: 70vw;
-}
-
-.textoaboutproj p{
-  text-align: justify;
-}
-
-.divlistproj {
-  width: 70vw;
-    font-size: 0.8rem;
-}
-
-.divlistproj li {
-  padding: 0.3rem 0;
-}
-
-.centerbigimg{
-margin-top: 50px;
-}
-
-.bigimg{
-  width: 96vw;
-}
-
-.centertext{
-  text-align: left;
-  padding-left: 0 !important;
-}
-
-.divsproject{
-  margin-top: 100px;
-}
-
-.nomarg{
-  width: 70vw;
-}
-
-.nomarg img {
-  width: 100%;
-  margin-left: 0;
-}
-.mobiletitle{
-  font-size: 1.2rem !important;
-}
 
 }
